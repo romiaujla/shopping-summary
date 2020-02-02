@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Row, Col } from 'react-bootstrap';
 
 class Subtotal extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
+    
+    static defaultProps = {
+        price: 0.0,
     }
+
     render() { 
         return (
-            <div className='Subtotal'>
-                Subtotal
-            </div>
+            <Row className='show-grid'>
+                <Col md={6}>Subtotal</Col>
+                <Col md={6}> {`$${this.props.price}`} </Col>
+            </Row>
         );
     }
+}
+
+Subtotal.propTypes = {
+    price: PropTypes.number.isRequired,
 }
  
 export default Subtotal;
