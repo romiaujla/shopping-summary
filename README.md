@@ -1,9 +1,12 @@
 # Shopping Summary
 A Shopping Summary user interface using React & Redux. 
 
+### Tech Used
+- React
+- Bootstrap
+
 ### Source
 - Created following directions in this [video](https://www.youtube.com/watch?v=KLCnTjB0w_o) and customized style in some places to learn bootstrap.
-- 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
