@@ -12,7 +12,7 @@ class App extends React.Component {
       total: 100
     }
   }
-  
+
   render(){
     return (
       <div className='Container'>
